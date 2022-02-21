@@ -13,7 +13,7 @@ public class SortingArray {
         for(i=0;i<ar.length;i++){
             min=i;
             for(j=i+1;j<ar.length;j++){
-                if(ar[i].compareTo(ar[j])<0){
+                if(ar[i].compareTo(ar[j])>0){
                     min=j;
                 }
             }
@@ -22,7 +22,7 @@ public class SortingArray {
             ar[min]=t;
         }
         for(i=0;i<ar.length;i++){
-            System.out.println(ar[i]+" ");
+            System.out.print(ar[i]+" ");
         }
     }
 }
