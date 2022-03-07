@@ -18,7 +18,7 @@ public class STD_Codes {
             std[i]= sc.next();
         }
 
-        System.out.println("Enter Name for searching");
+        System.out.println("Enter Name for searching: ");
         String target = sc.next();
 
         for(int i=0;i<3;i++){
