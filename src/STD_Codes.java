@@ -4,8 +4,8 @@ public class STD_Codes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String[] cities = new String[3];
-        String[] std = new String[3];
+        String[] cities = new String[5];
+        String[] std = new String[5];
 
         System.out.println("Enter Cities: ");
         for(int i=0;i<cities.length;i++){
@@ -21,7 +21,7 @@ public class STD_Codes {
         System.out.println("Enter Name for searching: ");
         String target = sc.next();
 
-        for(int i=0;i<3;i++){
+        for(int i=0;i<cities.length;i++){
             if(target.equalsIgnoreCase(cities[i])){
                 System.out.println(cities[i]+" : "+std[i]);
             }
