@@ -3,17 +3,19 @@ import java.util.Scanner;
 public class STD_Codes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("How many cities you want to enter? ");
+        int n = sc.nextInt();
 
-        String[] cities = new String[5];
-        String[] std = new String[5];
+        String[] cities = new String[n];
+        String[] std = new String[n];
 
-        System.out.println("Enter Cities: ");
+        System.out.println("Enter "+n+" Cities: ");
         for(int i=0;i<cities.length;i++){
             cities[i]= sc.next();
 
         }
 
-        System.out.println("Enter STD codes: ");
+        System.out.println("Enter "+n+" STD codes: ");
         for(int i=0;i<std.length;i++){
             std[i]= sc.next();
         }
