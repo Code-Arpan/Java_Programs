@@ -22,7 +22,7 @@ public class Sum_Prime {
         s = sc.nextInt();
         e = sc.nextInt();
 
-        for (i = e; i >= s; i--) {
+        for (i = s; i <= e; i++) {
             if (checkPrime(i)) {
                 sum+=i;
             }
